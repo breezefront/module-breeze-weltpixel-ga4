@@ -1,0 +1,18 @@
+{
+    "name": "swissup/module-breeze-weltpixel-ga4",
+    "description": "WeltPixel GA4 integration with Breeze Frontend",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3.0",
+    "require": {
+        "swissup/module-breeze": "^2.8.5"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Swissup\\BreezeWeltPixelGA4\\": ""
+        }
+    }
+}

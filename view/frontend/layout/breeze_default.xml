@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="breeze.js">
+            <arguments>
+                <argument name="bundles" xsi:type="array">
+                    <item name="default" xsi:type="array">
+                        <item name="items" xsi:type="array">
+
+                            <item name="weltpixel_ga4_gtm" xsi:type="string">
+                                Swissup_BreezeWeltPixelGA4/js/weltpixel_ga4_gtm
+                            </item>
+
+                            <item name="weltpixel_ga4_persistentLayer" xsi:type="string">
+                                Swissup_BreezeWeltPixelGA4/js/weltpixel_ga4_persistentlayer
+                            </item>
+
+                            <item name="weltpixel_ga4_serverside" xsi:type="string">
+                                WeltPixel_GA4/js/weltpixel_ga4_serverside
+                            </item>
+
+                        </item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+
+        <referenceBlock name="weltpixel_gtmga4_footer">
+            <action method="setTemplate">
+                <argument name="template" xsi:type="string">
+                    Swissup_BreezeWeltPixelGA4::gtm_footer.phtml
+                </argument>
+            </action>
+        </referenceBlock>
+    </body>
+</page>
