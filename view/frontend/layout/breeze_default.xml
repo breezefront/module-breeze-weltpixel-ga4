@@ -16,7 +16,7 @@
                                 Swissup_BreezeWeltPixelGA4/js/weltpixel_ga4_persistentlayer
                             </item>
 
-                            <item name="weltpixel_ga4_serverside" xsi:type="string">
+                            <item name="WeltPixel_GA4/js/weltpixel_ga4_serverside" xsi:type="string">
                                 WeltPixel_GA4/js/weltpixel_ga4_serverside
                             </item>
 
