@@ -15,11 +15,14 @@
                             <item name="weltpixel_ga4_persistentLayer" xsi:type="string">
                                 Swissup_BreezeWeltPixelGA4/js/weltpixel_ga4_persistentlayer
                             </item>
+                        </item>
+                    </item>
 
-                            <item name="WeltPixel_GA4/js/weltpixel_ga4_serverside" xsi:type="string">
-                                WeltPixel_GA4/js/weltpixel_ga4_serverside
+                    <item name="dynamic" xsi:type="array">
+                        <item name="items" xsi:type="array">
+                            <item name="WeltPixel_GA4/js/weltpixel_ga4_serverside" xsi:type="array">
+                                <item name="path" xsi:type="string">WeltPixel_GA4/js/weltpixel_ga4_serverside</item>
                             </item>
-
                         </item>
                     </item>
                 </argument>
