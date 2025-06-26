@@ -10,7 +10,7 @@ $_helper = $this->helper('WeltPixel\GA4\Helper\Data');
             function ($, wpGa4PersDl ,wpGa4gtm, customerData) {
                 $(document).off('ajaxComplete.weltpixel_ga4');
                 $(document).on('ajaxComplete.weltpixel_ga4', function (event, data) {
-                    if (data.response.req.url.search('/customer\/section\/load/') > 0) {
+                    if (data.response.url.search('/customer\/section\/load/') > 0) {
                         var response = data.response.body;
                         if (response.wp_ga4) {
                             var dataLayerData = JSON.parse(response.wp_ga4.datalayer);
