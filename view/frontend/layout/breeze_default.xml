@@ -5,16 +5,14 @@
         <referenceBlock name="breeze.js">
             <arguments>
                 <argument name="better_compatibility" xsi:type="array">
-                    <item name="WeltPixel_GA4" xsi:type="boolean">false</item>
+                    <item name="WeltPixel_GA4" xsi:type="boolean">true</item>
                 </argument>
                 <argument name="bundles" xsi:type="array">
                     <item name="default" xsi:type="array">
                         <item name="items" xsi:type="array">
-
                             <item name="weltpixel_ga4_gtm" xsi:type="string">
                                 Swissup_BreezeWeltPixelGA4/js/weltpixel_ga4_gtm
                             </item>
-
                             <item name="weltpixel_ga4_persistentLayer" xsi:type="string">
                                 Swissup_BreezeWeltPixelGA4/js/weltpixel_ga4_persistentlayer
                             </item>
@@ -30,14 +28,6 @@
                     </item>
                 </argument>
             </arguments>
-        </referenceBlock>
-
-        <referenceBlock name="weltpixel_gtmga4_footer">
-            <action method="setTemplate">
-                <argument name="template" xsi:type="string">
-                    Swissup_BreezeWeltPixelGA4::gtm_footer.phtml
-                </argument>
-            </action>
         </referenceBlock>
     </body>
 </page>
